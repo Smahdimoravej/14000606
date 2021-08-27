@@ -7,6 +7,7 @@ mydb = mysql.connector.connect(
     host="localhost",
     database="telegram_bot",
     auth_plugin="mysql_native_password"
+    
     )
 mycursor = mydb.cursor()
 token = "1895042623:AAFpxW23oTtvIuIF70B6LoqNnW9vwbsT6Kw"
